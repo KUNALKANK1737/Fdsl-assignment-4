@@ -1,9 +1,9 @@
 
 def selection_sort():
     marks=[]
-    n=int(input("Enter the number of elememts to be taken :"))
+    n=int(input("Enter the number of students to be taken in sorting :"))
     for i in range (n):
-        r=int(input("Enter the value to be inserted :"))
+        r=float(input("Enter the marks to be inserted :"))
         marks.append(r)
     print(marks)
     
@@ -22,9 +22,9 @@ def selection_sort():
            print(marks[i])
 def bubble_sort():
     marks=[]
-    n=int(input("Enter the number of elememts to be taken :"))
+    n=int(input("Enter the number of students to be taken in sorting :"))
     for i in range (n):
-        r=int(input("Enter the value to be inserted :"))
+        r=float(input("Enter the marks to be inserted :"))
         marks.append(r)
     print(marks)
     for i in range (n-1):
