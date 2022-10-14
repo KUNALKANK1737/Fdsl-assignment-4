@@ -17,9 +17,11 @@ def selection_sort():
     print("The sorted list is :")
     print(marks)
     if(n>=5):
+      a=marks[::-1]
        print("The top five members are :")
+       i=0
        for i in range (5):
-           print(marks[i])
+           print(a[i])
 def bubble_sort():
     marks=[]
     n=int(input("Enter the number of students to be taken in sorting :"))
@@ -37,9 +39,11 @@ def bubble_sort():
     print("The sorted list is :")
     print(marks)
     if(n>=5):
+       a=marks[::-1]
        print("The top five members are :")
+       i=0
        for i in range (5):
-        print(marks[i])
+        print(a[i])
                
         
 while(True):
